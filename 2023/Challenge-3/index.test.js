@@ -21,7 +21,7 @@ test('expect to be empty', ()=>{
 })
 
 test('expect to be empty', ()=>{
-    const original = 'abcde4'
-    const modified = 'abcde'
-    expect(findNaughtyStep(original, modified)).toBe('4')
+    const original = 'a'
+    const modified = 'aa'
+    expect(findNaughtyStep(original, modified)).toBe('a')
 })
